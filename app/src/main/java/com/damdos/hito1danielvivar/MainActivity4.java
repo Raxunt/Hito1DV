@@ -3,6 +3,7 @@ package com.damdos.hito1danielvivar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -27,7 +28,7 @@ public class MainActivity4 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent botonInicio = new Intent(MainActivity4.this, MainActivity.class);
                 startActivity(botonInicio);
-
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/")));
 
 
 
