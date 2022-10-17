@@ -29,7 +29,8 @@ public class MainActivity3 extends AppCompatActivity {
                                          Intent atras = new Intent(MainActivity3.this, MainActivity2.class);
                                          startActivity(atras);
 
-                                         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people/")));
+
+                                         startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("tel:985185500")));
                                      }
                                  }
 
